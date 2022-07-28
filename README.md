@@ -27,6 +27,7 @@
  ~~~
  - java en el equipo https://www.java.com/es/download/ie_manual.jsp
  - java (VisualStudioCode) https://www.youtube.com/watch?v=AvOIyjBY_mk
+ - si sale con errores los archivos java en visual studio code, entonces recomendamos abrirlos en IDE como IntelliJ IDEA, NetBeans, Eclipse...
  * * *
  * Clonar el repositorio
  * * * 
