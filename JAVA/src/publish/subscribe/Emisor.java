@@ -10,7 +10,7 @@ import com.rabbitmq.client.ConnectionFactory;
 public class Emisor {
     public static void main(String[] argv) throws Exception {
         ConnectionFactory factory = new ConnectionFactory();
-        factory.setHost("25.9.31.126");
+        factory.setHost("localhost");
         try (Connection connection = factory.newConnection();
              Channel channel = connection.createChannel()) {
 

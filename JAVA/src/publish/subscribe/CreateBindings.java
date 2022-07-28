@@ -16,7 +16,7 @@ public class CreateBindings {
   public static void main(String[] args) throws IOException, TimeoutException {
 
     ConnectionFactory connectionFactory = new ConnectionFactory();
-    connectionFactory.setHost("25.9.31.126");
+    connectionFactory.setHost("localhost");
     try (Connection connection = connectionFactory.newConnection();Channel channel = connection.createChannel()) {
       //Create bindings - (queue, exchange, routingKey)
       channel.queueBind("MobileQ", "my-direct-exchange", "personalDevice");

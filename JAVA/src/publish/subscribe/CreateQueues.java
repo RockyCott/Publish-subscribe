@@ -16,7 +16,7 @@ public class CreateQueues {
   public static void main(String[] args) throws IOException, TimeoutException {
 
     ConnectionFactory factory = new ConnectionFactory();
-    factory.setHost("25.9.31.126");
+    factory.setHost("localhost");
       try (Connection connection = factory.newConnection(); 
           Channel channel = connection.createChannel()) {
           
